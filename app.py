@@ -56,7 +56,7 @@ def index():
                 # --- Predict ---
                 prediction = model.predict(input_data)[0]
                 if prediction == 0:
-                    prediction = "very bad"
+                    prediction = "Hazardous"
                 if prediction == 1:
                     prediction = "Bad"
                 if prediction == 2:
